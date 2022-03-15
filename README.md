@@ -15,6 +15,6 @@ myShell.run()
 ### Example
 ```
 import customShell.shell as shell
-myShell = shell.shell({"sayHi":[1,"name"),"""print(f"Hello there, {name}!")""","sayMeow":0,"","""print("meow!")"""]})
+myShell = shell.shell({"sayHi":[1,"name","""print(f"Hello there, {name}!")"""],"sayMeow":[0,"","""print("meow!")"""]})
 myShell.run()
 ```
