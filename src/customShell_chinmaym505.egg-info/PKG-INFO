@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: customShell-chinmaym505
+Version: 0.0.3
+Summary: A package to create custom shells
+Home-page: https://github.com/chinmaym505/customShell
+Author: Chinmay Malvania
+Author-email: chinmay.malvania@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/chinmaym505/customShell/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# customShell
+## About
+customShell is a module that allows you to create a custom shell
+### Author
+The author is [chinmaym505](https://github.com/chinmaym505)
+### License
+customShell has been released under the MIT license
+## How to use this module
+```
+import customShell.shell as shell
+myShell = shell.shell({command (type: string):[has arguments? (1 for yes 0 for no),variable to store argument (type: string, keep as empty string if no argument)),code to run for command (type: string)], (other things if any)})
+myShell.run()
+
+```
+### Example
+```
+import customShell.shell as shell
+myShell = shell.shell({"sayHi":[1,"name"),"""print(f"Hello there, {name}!")""","sayMeow":0,"","""print("meow!")"""]})
+myShell.run()
+```
+

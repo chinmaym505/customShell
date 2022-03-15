@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/customShell/__init__.py
+src/customShell/shell.py
+src/customShell_chinmaym505.egg-info/PKG-INFO
+src/customShell_chinmaym505.egg-info/SOURCES.txt
+src/customShell_chinmaym505.egg-info/dependency_links.txt
+src/customShell_chinmaym505.egg-info/top_level.txt
