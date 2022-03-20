@@ -4,7 +4,7 @@ customShell is a module that allows you to create a custom shell
 
 ## Author
 The author is [chinmaym505](https://github.com/chinmaym505)
-![pip_install_stuff](https://user-images.githubusercontent.com/95156077/159143162-6f4f31e0-3618-46d6-808c-79776b1c2fba.gif)
+
 
 ## License
 customShell has been released under the MIT license
@@ -14,6 +14,7 @@ customShell is curently on [TestPyPi](https://test.pypi.org/project/customShell-
 
 ## Installing
 To install, use `pip install -i https://test.pypi.org/simple/ customShell-chinmaym505` or `python -m pip install -i https://test.pypi.org/simple/ customShell-chinmaym505`
+![pip_install_stuff](https://user-images.githubusercontent.com/95156077/159143162-6f4f31e0-3618-46d6-808c-79776b1c2fba.gif)
 ## How to use:
 ```
 import customShell.shell as shell
