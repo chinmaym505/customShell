@@ -28,4 +28,5 @@ import customShell.shell as shell
 myShell = shell.shell({"sayHi":[1,"name","""print(f"Hello there, {name}!")"""],"sayMeow":[0,"","""print("meow!")"""]})
 myShell.run()
 ```
+![python_customShell_stuff](https://user-images.githubusercontent.com/95156077/159143630-0fb17d43-c8c4-4f6d-a762-51a05a8ddf26.gif)
 
